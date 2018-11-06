@@ -1,0 +1,12 @@
+create database company;
+use company
+
+create table empelados (
+id int not null auto_increment primary key,
+name varchar(40),
+salario int
+);
+
+insert into empelados values (1,'darian',3000);
+insert into empelados values (2,'cesar',2000),(3,'stiven',3000);
+insert into empelados (name,salario) values ('cesar',12000);
