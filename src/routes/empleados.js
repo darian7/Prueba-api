@@ -94,9 +94,6 @@ router.post('/login', (req, res) => {
         res.json({ Status: 'Ingrese usuario' });
 
     }
-
-
-
 });
 
 module.exports = router;
