@@ -9,10 +9,10 @@ database: 'company'
 
 mysqlConnection.connect(function (err){
     if (err) {
-        console.log(err);
+        console.log(err,"este es el error encontrado");
         return;
     }else{
-        console.log("coneccion exitosa")
+        console.log("coneccion exitosa a la Bd")
     }
 });
 

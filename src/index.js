@@ -15,6 +15,7 @@ app.use(express.urlencoded({extended:false}));
 app.use(require('./routes/empleados'));
 
 
+
 //star servidor
 app.listen(app.get('port'),() => {
 console.log('server', app.get('port'));
