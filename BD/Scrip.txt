@@ -10,3 +10,11 @@ salario int
 insert into empelados values (1,'darian',3000);
 insert into empelados values (2,'cesar',2000),(3,'stiven',3000);
 insert into empelados (name,salario) values ('cesar',12000);
+
+create table usuarios (
+id int not null auto_increment primary key,
+correo varchar(40),
+contraseña varchar(40)
+);
+
+insert into usuarios (correo,contraseña) values ('yoj.@udla.edu.co','dcc100394');
